@@ -138,5 +138,12 @@
     "price": "8.99",
     "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
     "image": "images/falafel-wrap.jpg"
+  },
+  {
+    "id": "m21",
+    "name": "Eggplant Parmesan",
+    "price": "11.99",
+    "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses.",
+    "image": "images/eggplant-parmesan.jpg"
   }
 ]

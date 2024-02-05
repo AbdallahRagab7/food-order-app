@@ -271,6 +271,55 @@ h1 {
   margin: 0;
 }
 
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.pagination-container button {
+  margin: 0 5px;
+  font-size: 1rem;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #5f5959;
+  background-color:transparent;
+  transition: background-color 0.3s ease; 
+}
+
+.pagination-container button:hover {
+  background-color: #38613b; 
+}
+
+.pagination-container button.active {
+  background-color: #45a049; 
+  color: white;
+}
+
+.pagination-container button.active:hover {
+  background-color: #45a049; 
+}
+
+/* MealItem.css */
+
+.meal-item-article {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
 @keyframes fade-slide-up {
   from {
     opacity: 0;
